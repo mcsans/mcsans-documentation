@@ -1,0 +1,29 @@
+{
+  // WPU Settings
+  "editor.fontFamily": " 'JetBrains Mono', 'Source Code Pro' ",
+  "workbench.iconTheme": "vscode-icons",
+  "editor.cursorBlinking": "expand",
+  "explorer.openEditors.visible": 0,
+  "editor.minimap.enabled": false,
+  "editor.fontLigatures": true,
+  "php.suggest.basic": false,
+  "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+
+  // Custom Settings
+  "blade.format.enable": true,
+  "emmet.triggerExpansionOnTab": true,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.colors": [
+    "rgba(255,255,255, 0.15)",
+    "rgba(255,255,255, 0.00)",
+  ],
+
+  // Formatter Settings
+  "[html]": {
+    "editor.formatOnSave": true,
+  },
+  "[blade]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "onecentlin.laravel-blade"
+  }
+}

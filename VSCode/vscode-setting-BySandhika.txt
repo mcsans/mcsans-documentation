@@ -1,0 +1,38 @@
+{
+    "explorer.openEditors.visible": 0,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'Fira Code', 'Source Code Pro', Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+    "editor.formatOnSave": true,
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "php": {
+            "type": [
+                "php"
+            ],
+            "filename": [
+                ".php"
+            ]
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html",
+            "blade.php",
+            "php"
+        ]
+    }
+}
