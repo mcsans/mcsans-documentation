@@ -1,0 +1,39 @@
+{
+    // WPU Settings
+    "editor.fontFamily": " 'JetBrains Mono', 'Source Code Pro' ",
+    "workbench.colorTheme": "Mayukai Mirage",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.cursorBlinking": "expand",
+    "explorer.openEditors.visible": 0,
+    "update.enableWindowsBackgroundUpdates": false,
+    "editor.minimap.enabled": false,
+    "editor.fontLigatures": true,
+    "php.suggest.basic": false,
+    "php.validate.executablePath": "C:\\xampp\\php\\php.exe",
+
+    // Formatter Settings
+    "[html]": {
+    // "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[blade]": {
+    // "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "onecentlin.laravel-blade"
+    },
+    "[json]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    
+    // Custom Settings
+    "blade.format.enable": true,
+    "emmet.triggerExpansionOnTab": true,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "editor.inlineSuggest.enabled": true,
+    "window.zoomLevel": -1,
+    "security.workspace.trust.untrustedFiles": "open"
+}
